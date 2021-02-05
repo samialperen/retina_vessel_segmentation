@@ -26,7 +26,9 @@ The approach followed for this purpose:
 ### 2-) Segmenting Using Convolutional Neural Network U-Net with Transfer Learning
 * A CNN architecture aimed for segmentation named **U-Net** (as shown below) was used 
 <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/unet.png" width="50%" height="50%">
+
 * Train it with [Imagenet](https://www.pyimagesearch.com/2017/03/20/imagenet-vggnet-resnet-inception-xception-keras)
+
 * Use trained U-Net network to train our network for [DRIVE DATASET: Digital Retinal Images for Vessel Extraction](https://drive.grand-challenge.org) -->transfer learning
 
 
