@@ -31,12 +31,12 @@ The approach followed for this purpose:
 
 * Here are example input-output pairs where left image is the original image and right image is the output of U-Net
 <p float="left">
-  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/input1.png" width="50%" height="50%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/input1.jpg" width="50%" height="50%">
   <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/output1.png" width="50%" height="50%">
 </p>
 
 <p float="left">
-  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/input2.png" width="50%" height="50%">
-  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/output2.png" width="50%" height="50%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/input2.jpg" width="50%" height="50%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/output2.jpg" width="50%" height="50%">
 </p>
 
