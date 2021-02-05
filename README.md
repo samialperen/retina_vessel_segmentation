@@ -11,7 +11,6 @@ MATLAB image processing toolbox is used to segment vessels using traditional com
 The approach followed for this purpose:
 
 * Original Image
-
-![Original Image](https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/original_img.jpg){:height="50%" width="50%"}
+<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/original_img.jpg" width="70%" height="70%">
 
 
