@@ -10,18 +10,23 @@ MATLAB image processing toolbox is used to segment vessels using traditional com
 
 The approach followed for this purpose:
 
-* Original Image
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/original_img.jpg" width="50%" height="50%">
-* Adjust Contrast
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/contrast.jpg" width="50%" height="50%">
-* Filter Edges
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/edges.jpg" width="50%" height="50%">
-* Apply Local Threshold
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/local_threshold.jpg" width="50%" height="50%">
-* Bridge the gaps with morphological operations
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/fill_gaps.jpg" width="50%" height="50%">
-* Select the longest and thickest vessels to obtain final segmented vessels
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/biggest_vessels.jpg" width="50%" height="50%">
+* Read original image and adjust contrast 
+<p float="left">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/original_img.jpg" width="45%" height="45%" alt="Original Image">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/contrast.jpg" width="45%" height="45%"> 
+</p>
+* Filter edges and apply local threshold 
+<p float="left">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/edges.jpg" width="45%" height="45%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/local_threshold.jpg" width="40%" height="40%"> 
+</p>
+* Bridge the gaps with morphological operations and finally select the longest/thickest vessels to obtain final image
+<p float="left">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/fill_gaps.jpg" width="45%" height="45%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/computer_vision/biggest_vessels.jpg" width="45%" height="45%"> 
+</p>
+
+
 
 ### 2-) Segmenting Using Convolutional Neural Network U-Net with Transfer Learning
 * A CNN architecture aimed for segmentation named **U-Net** (as shown below) was used 
