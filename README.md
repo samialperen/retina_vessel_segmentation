@@ -48,3 +48,23 @@ The approach followed for this purpose:
   <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/CNN/output2.jpg" width="38%" height="38%">
 </p>
 
+## Diagnosis of Retinopath of Prematurity (ROP) Using Segmented Vessels
+
+### Marking App to Collect Training Data from ROP Specialists
+In order to classify retinal images into three categories depending on the level of ROP (plus, preplus and normal/healthy), the [marking app]() was developed. It is a GUI to allow medical doctors to manually label retina images as plus, preplus or normal/healthy. This approach allows us to collect enough training data for classification. 
+
+<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/marking_app/gui.jpg" width="50%" height="50%">
+
+### Classification of ROP Disease
+* Previously trained U-Net (with Imagenet) network was trained with segmented version of data that we collected. 
+* 81% accuracy obtained with confusions mostly between Plus/Preplus and Preplus/Normal categories.
+
+* Correctly predicted examples: (Normal, Preplus and Plus Starting from Left to Right)
+<p float="left">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_normal.jpg" width="30%" height="30%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_preplus.jpg" width="30%" height="30%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_plus.jpg" width="30%" height="30%">
+</p>
+
+
+
