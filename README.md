@@ -51,9 +51,9 @@ The approach followed for this purpose:
 ## Diagnosis of Retinopath of Prematurity (ROP) Using Segmented Vessels
 
 ### Marking App to Collect Training Data from ROP Specialists
-In order to classify retinal images into three categories depending on the level of ROP (plus, preplus and normal/healthy), the [marking app]() was developed. It is a GUI to allow medical doctors to manually label retina images as plus, preplus or normal/healthy. This approach allows us to collect enough training data for classification. 
+In order to classify retinal images into three categories depending on the level of ROP (plus, preplus and normal/healthy), the [marking app](https://github.com/samialperen/rop_disease_classification/tree/master/marking_app_for_doctors) was developed. It is a GUI to allow medical doctors to manually label retina images as plus, preplus or normal/healthy. This approach allows us to collect enough training data for classification. 
 
-<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/marking_app/gui.jpg" width="50%" height="50%">
+<img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/marking_app/gui.png" width="50%" height="50%">
 
 ### Classification of ROP Disease
 * Previously trained U-Net (with Imagenet) network was trained with segmented version of data that we collected. 
@@ -64,6 +64,13 @@ In order to classify retinal images into three categories depending on the level
   <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_normal.jpg" width="30%" height="30%">
   <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_preplus.jpg" width="30%" height="30%">
   <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/correct_plus.jpg" width="30%" height="30%">
+</p>
+
+* Wrong predictions: (Left: Normal Predicted as Preplus;  Middle: Preplus Predicted as Normal;  Right: Preplus Predicted as Plus)
+<p float="left">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/normal_predicted_preplus.jpg" width="30%" height="30%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/preplus_predicted_normal.jpg" width="30%" height="30%">
+  <img src="https://github.com/samialperen/rop_disease_classification/blob/master/media/diagnosis/preplus_predicted_plus.jpg" width="30%" height="30%">
 </p>
 
 
